@@ -36,22 +36,26 @@ Artwork.create([
     {
         name: "Feu",
         description: "The New Orleans mistress sets ablaze her lover's home for not choosing her",
-        price: 450
+        price: 450,
+        artist_id: 1
     },
     {
         name: "Ran",
         description: "Orchid in Japanese",
-        price: 365
+        price: 365,
+        artist_id: 2
     },
     {
         name: "Black Pudding",
         description: "Black Pudding Caribbean Dish",
-        price: 550
+        price: 550,
+        artist_id: 3
     },
     {
         name: "Kangaroo",
         description: "Dominica Wine - Cabernet Sauvignon",
-        price: 525
+        price: 525,
+        artist_id: 4
     }
 ])
 

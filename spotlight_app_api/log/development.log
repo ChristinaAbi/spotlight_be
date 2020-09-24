@@ -194,3 +194,113 @@ LINE 1: SELECT "artworks".* FROM "artworks" WHERE "artworks"."artist...
 ):
   
 app/controllers/artists_controller.rb:13:in `show'
+  [1m[35m (6.9ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3651213574502353755)[0m
+  [1m[35m (7.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddColumnToArtwork (20200924032713)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (24.9ms)[0m  [1m[35mALTER TABLE "artworks" ADD "artist_id" integer[0m
+  [1m[36mprimary::SchemaMigration Create (1.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200924032713"]]
+  [1m[35m (6.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (5.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(3651213574502353755)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArtist Create (4.5ms)[0m  [1m[32mINSERT INTO "artists" ("name", "biography", "age", "location", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Shazelle"], ["biography", " Born and raised in New Orleans, Louisiana, Shazelle brings her creole roots into all her pieces of work. Her first series, Feu, depicts the fierceness Creole women possess. She hopes to create more series dedicated to being Creole"], ["age", 19], ["location", "New Orleans"], ["created_at", "2020-09-24 13:23:08.815694"], ["updated_at", "2020-09-24 13:23:08.815694"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArtist Create (0.5ms)[0m  [1m[32mINSERT INTO "artists" ("name", "biography", "age", "location", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Hana"], ["biography", "Hailing from Busan, Japan, Hana draws her first series inspiration from her name, the direct translation of flower. Hana sends her time engaging in pieces using pastels, bringing out the softness and delicacy of flowers."], ["age", 17], ["location", "Busan"], ["created_at", "2020-09-24 13:23:08.827026"], ["updated_at", "2020-09-24 13:23:08.827026"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArtist Create (0.8ms)[0m  [1m[32mINSERT INTO "artists" ("name", "biography", "age", "location", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Ryon F."], ["biography", "From the small country of Guyana, Ryon F. creates his masterpieces directly from his mother's kitchen. His series, Food, brings recognition to his cultures food. From Poulorri to Pepperpot, Ryon brings a piece from home with every painting."], ["age", 27], ["location", ""], ["created_at", "2020-09-24 13:23:08.832431"], ["updated_at", "2020-09-24 13:23:08.832431"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArtist Create (0.5ms)[0m  [1m[32mINSERT INTO "artists" ("name", "biography", "age", "location", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Emerson"], ["biography", "Prud to be from Dominica, Emerson creates his pieces with one ting in mind, Dominican wine. Channeling his inner wine connoseur, every piece has been created with a wine glass in his hand."], ["age", 27], ["location", "Dominica"], ["created_at", "2020-09-24 13:23:08.838727"], ["updated_at", "2020-09-24 13:23:08.838727"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArtist Load (0.8ms)[0m  [1m[34mSELECT "artists".* FROM "artists" WHERE "artists"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mArtwork Create (1.4ms)[0m  [1m[32mINSERT INTO "artworks" ("name", "description", "price", "created_at", "updated_at", "artist_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Feu"], ["description", "The New Orleans mistress sets ablaze her lover's home for not choosing her"], ["price", 450], ["created_at", "2020-09-24 13:23:08.888620"], ["updated_at", "2020-09-24 13:23:08.888620"], ["artist_id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT "artists".* FROM "artists" WHERE "artists"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mArtwork Create (3.4ms)[0m  [1m[32mINSERT INTO "artworks" ("name", "description", "price", "created_at", "updated_at", "artist_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Ran"], ["description", "Orchid in Japanese"], ["price", 365], ["created_at", "2020-09-24 13:23:08.898403"], ["updated_at", "2020-09-24 13:23:08.898403"], ["artist_id", 2]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT "artists".* FROM "artists" WHERE "artists"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mArtwork Create (0.6ms)[0m  [1m[32mINSERT INTO "artworks" ("name", "description", "price", "created_at", "updated_at", "artist_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Black Pudding"], ["description", "Black Pudding Caribbean Dish"], ["price", 550], ["created_at", "2020-09-24 13:23:08.909559"], ["updated_at", "2020-09-24 13:23:08.909559"], ["artist_id", 3]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT "artists".* FROM "artists" WHERE "artists"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mArtwork Create (0.5ms)[0m  [1m[32mINSERT INTO "artworks" ("name", "description", "price", "created_at", "updated_at", "artist_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Kangaroo"], ["description", "Dominica Wine - Cabernet Sauvignon"], ["price", 525], ["created_at", "2020-09-24 13:23:08.917193"], ["updated_at", "2020-09-24 13:23:08.917193"], ["artist_id", 4]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/artists/1" for ::1 at 2020-09-24 09:23:29 -0400
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArtistsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArtist Load (1.5ms)[0m  [1m[34mSELECT "artists".* FROM "artists" WHERE "artists"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/artists_controller.rb:35:in `set_artist'
+  [1m[36mArtwork Load (0.6ms)[0m  [1m[34mSELECT "artworks".* FROM "artworks" WHERE "artworks"."artist_id" = $1[0m  [["artist_id", 1]]
+  ↳ app/controllers/artists_controller.rb:13:in `show'
+Completed 200 OK in 111ms (Views: 0.1ms | ActiveRecord: 27.1ms | Allocations: 15594)
+
+
+Started GET "/artists/1/artwork" for ::1 at 2020-09-24 09:23:46 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/artists/1/artwork"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/artists/2" for ::1 at 2020-09-24 09:24:48 -0400
+Processing by ArtistsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArtist Load (2.9ms)[0m  [1m[34mSELECT "artists".* FROM "artists" WHERE "artists"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/artists_controller.rb:35:in `set_artist'
+  [1m[36mArtwork Load (4.4ms)[0m  [1m[34mSELECT "artworks".* FROM "artworks" WHERE "artworks"."artist_id" = $1[0m  [["artist_id", 2]]
+  ↳ app/controllers/artists_controller.rb:13:in `show'
+Completed 200 OK in 36ms (Views: 0.2ms | ActiveRecord: 7.3ms | Allocations: 1798)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 09:25:01 -0400
+Processing by ArtistsController#index as HTML
+  [1m[36mArtist Load (2.7ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 5.5ms | ActiveRecord: 2.7ms | Allocations: 1962)
+
+
+Started GET "/artists/6" for ::1 at 2020-09-24 09:26:41 -0400
+Processing by ArtistsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mArtist Load (1.3ms)[0m  [1m[34mSELECT "artists".* FROM "artists" WHERE "artists"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/artists_controller.rb:35:in `set_artist'
+  [1m[36mArtwork Load (0.9ms)[0m  [1m[34mSELECT "artworks".* FROM "artworks" WHERE "artworks"."artist_id" = $1[0m  [["artist_id", 6]]
+  ↳ app/controllers/artists_controller.rb:13:in `show'
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 2.2ms | Allocations: 1607)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 09:26:59 -0400
+Processing by ArtistsController#index as HTML
+  [1m[36mArtist Load (0.7ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.7ms | Allocations: 1977)
+
+
