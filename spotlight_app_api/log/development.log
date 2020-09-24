@@ -304,3 +304,773 @@ Processing by ArtistsController#index as HTML
 Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.7ms | Allocations: 1977)
 
 
+Started GET "/" for ::1 at 2020-09-24 09:48:08 -0400
+  [1m[35m (4.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Library/Ruby/Gems/2.6.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Library/Ruby/Gems/2.6.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 11.7ms | Allocations: 306)
+Completed 200 OK in 28ms (Views: 20.4ms | ActiveRecord: 0.0ms | Allocations: 1547)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 09:48:59 -0400
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArtistsController#index as HTML
+  [1m[36mArtist Load (6.1ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 46ms (Views: 14.8ms | ActiveRecord: 22.2ms | Allocations: 8144)
+
+
+Started GET "/" for ::1 at 2020-09-24 09:49:02 -0400
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Library/Ruby/Gems/2.6.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Library/Ruby/Gems/2.6.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 17.5ms | Allocations: 306)
+Completed 200 OK in 34ms (Views: 25.3ms | ActiveRecord: 0.0ms | Allocations: 1543)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 09:51:48 -0400
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArtistsController#index as HTML
+  [1m[36mArtist Load (1.2ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 73ms (Views: 27.8ms | ActiveRecord: 20.7ms | Allocations: 8145)
+
+
+Started GET "/" for ::1 at 2020-09-24 09:51:52 -0400
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Library/Ruby/Gems/2.6.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Library/Ruby/Gems/2.6.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 33.4ms | Allocations: 306)
+Completed 200 OK in 57ms (Views: 46.7ms | ActiveRecord: 0.0ms | Allocations: 1543)
+
+
+Started GET "/" for ::1 at 2020-09-24 09:57:27 -0400
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Library/Ruby/Gems/2.6.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Library/Ruby/Gems/2.6.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 181.5ms | Allocations: 196)
+Completed 200 OK in 192ms (Views: 186.8ms | ActiveRecord: 0.0ms | Allocations: 750)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 10:20:51 -0400
+  [1m[35m (2.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArtistsController#index as HTML
+  [1m[36mArtist Load (10.2ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 106ms (Views: 39.6ms | ActiveRecord: 40.0ms | Allocations: 8144)
+
+
+Started GET "/" for ::1 at 2020-09-24 10:21:10 -0400
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Library/Ruby/Gems/2.6.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Library/Ruby/Gems/2.6.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 48.7ms | Allocations: 306)
+Completed 200 OK in 68ms (Views: 60.2ms | ActiveRecord: 0.0ms | Allocations: 1543)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 10:28:53 -0400
+Processing by ArtistsController#index as HTML
+  [1m[36mArtist Load (3.0ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 33ms (Views: 27.6ms | ActiveRecord: 3.0ms | Allocations: 2032)
+
+
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (8.9ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (212.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS "spotlight_app_api_development"[0m
+  [1m[35m (112.0ms)[0m  [1m[35mDROP DATABASE IF EXISTS "spotlight_app_api_test"[0m
+  [1m[35m (683.3ms)[0m  [1m[35mCREATE DATABASE "spotlight_app_api_development" ENCODING = 'unicode'[0m
+  [1m[35m (277.0ms)[0m  [1m[35mCREATE DATABASE "spotlight_app_api_test" ENCODING = 'unicode'[0m
+  [1m[35m (72.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (8.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3651213574502353755)[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateArtists (20200924015244)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (23.7ms)[0m  [1m[35mCREATE TABLE "artists" ("id" bigserial primary key, "name" character varying, "biography" character varying, "age" integer, "location" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (17.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200924015244"]]
+  [1m[35m (6.5ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateArtworks (20200924015337)
+  [1m[35m (14.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (12.7ms)[0m  [1m[35mCREATE TABLE "artworks" ("id" bigserial primary key, "name" character varying, "description" character varying, "price" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (13.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200924015337"]]
+  [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddColumnToArtwork (20200924032713)
+  [1m[35m (54.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (4.9ms)[0m  [1m[35mALTER TABLE "artworks" ADD "artist_id" integer[0m
+  [1m[36mprimary::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200924032713"]]
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (7.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-09-24 14:31:02.880994"], ["updated_at", "2020-09-24 14:31:02.880994"]]
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_advisory_unlock(3651213574502353755)[0m
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArtist Create (6.7ms)[0m  [1m[32mINSERT INTO "artists" ("name", "biography", "age", "location", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Shazelle"], ["biography", " Born and raised in New Orleans, Louisiana, Shazelle brings her creole roots into all her pieces of work. Her first series, Feu, depicts the fierceness Creole women possess. She hopes to create more series dedicated to being Creole"], ["age", 19], ["location", "New Orleans"], ["created_at", "2020-09-24 14:34:42.299239"], ["updated_at", "2020-09-24 14:34:42.299239"]]
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArtist Create (0.6ms)[0m  [1m[32mINSERT INTO "artists" ("name", "biography", "age", "location", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Hana"], ["biography", "Hailing from Busan, Japan, Hana draws her first series inspiration from her name, the direct translation of flower. Hana sends her time engaging in pieces using pastels, bringing out the softness and delicacy of flowers."], ["age", 17], ["location", "Busan"], ["created_at", "2020-09-24 14:34:42.314822"], ["updated_at", "2020-09-24 14:34:42.314822"]]
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArtist Create (3.0ms)[0m  [1m[32mINSERT INTO "artists" ("name", "biography", "age", "location", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Ryon F."], ["biography", "From the small country of Guyana, Ryon F. creates his masterpieces directly from his mother's kitchen. His series, Food, brings recognition to his cultures food. From Poulorri to Pepperpot, Ryon brings a piece from home with every painting."], ["age", 27], ["location", "Georgetown"], ["created_at", "2020-09-24 14:34:42.325977"], ["updated_at", "2020-09-24 14:34:42.325977"]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArtist Create (0.6ms)[0m  [1m[32mINSERT INTO "artists" ("name", "biography", "age", "location", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Emerson"], ["biography", "Prud to be from Dominica, Emerson creates his pieces with one ting in mind, Dominican wine. Channeling his inner wine connoseur, every piece has been created with a wine glass in his hand."], ["age", 27], ["location", "Dominica"], ["created_at", "2020-09-24 14:34:42.336862"], ["updated_at", "2020-09-24 14:34:42.336862"]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArtist Load (0.7ms)[0m  [1m[34mSELECT "artists".* FROM "artists" WHERE "artists"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mArtwork Create (9.5ms)[0m  [1m[32mINSERT INTO "artworks" ("name", "description", "price", "created_at", "updated_at", "artist_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Feu"], ["description", "The New Orleans mistress sets ablaze her lover's home for not choosing her"], ["price", 450], ["created_at", "2020-09-24 14:34:42.412594"], ["updated_at", "2020-09-24 14:34:42.412594"], ["artist_id", 1]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT "artists".* FROM "artists" WHERE "artists"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mArtwork Create (0.8ms)[0m  [1m[32mINSERT INTO "artworks" ("name", "description", "price", "created_at", "updated_at", "artist_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Ran"], ["description", "Orchid in Japanese"], ["price", 365], ["created_at", "2020-09-24 14:34:42.434354"], ["updated_at", "2020-09-24 14:34:42.434354"], ["artist_id", 2]]
+  [1m[35m (2.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArtist Load (0.6ms)[0m  [1m[34mSELECT "artists".* FROM "artists" WHERE "artists"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mArtwork Create (0.5ms)[0m  [1m[32mINSERT INTO "artworks" ("name", "description", "price", "created_at", "updated_at", "artist_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Black Pudding"], ["description", "Black Pudding Caribbean Dish"], ["price", 550], ["created_at", "2020-09-24 14:34:42.444261"], ["updated_at", "2020-09-24 14:34:42.444261"], ["artist_id", 3]]
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArtist Load (0.3ms)[0m  [1m[34mSELECT "artists".* FROM "artists" WHERE "artists"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mArtwork Create (0.5ms)[0m  [1m[32mINSERT INTO "artworks" ("name", "description", "price", "created_at", "updated_at", "artist_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Kangaroo"], ["description", "Dominica Wine - Cabernet Sauvignon"], ["price", 525], ["created_at", "2020-09-24 14:34:42.453032"], ["updated_at", "2020-09-24 14:34:42.453032"], ["artist_id", 4]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/artists" for ::1 at 2020-09-24 10:35:02 -0400
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArtistsController#index as HTML
+  [1m[36mArtist Load (1.3ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 145ms (Views: 30.6ms | ActiveRecord: 91.1ms | Allocations: 7581)
+
+
+Started GET "/" for ::1 at 2020-09-24 10:35:20 -0400
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Library/Ruby/Gems/2.6.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Library/Ruby/Gems/2.6.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 26.0ms | Allocations: 306)
+Completed 200 OK in 63ms (Views: 43.2ms | ActiveRecord: 0.0ms | Allocations: 1543)
+
+
+Started GET "/" for ::1 at 2020-09-24 10:43:34 -0400
+Processing by Rails::WelcomeController#index as */*
+  Rendering /Library/Ruby/Gems/2.6.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Library/Ruby/Gems/2.6.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 41.2ms | Allocations: 191)
+Completed 200 OK in 78ms (Views: 49.7ms | ActiveRecord: 0.0ms | Allocations: 742)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 10:45:02 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (12.6ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 141ms (Views: 112.6ms | ActiveRecord: 12.6ms | Allocations: 1488)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 10:45:05 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (1.2ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 1.2ms | Allocations: 1415)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 10:46:01 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (0.5ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.5ms | Allocations: 1397)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 10:53:17 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (2.1ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 414ms (Views: 410.3ms | ActiveRecord: 2.1ms | Allocations: 1481)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 11:01:36 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (2.3ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 93ms (Views: 77.4ms | ActiveRecord: 2.3ms | Allocations: 1478)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 11:04:07 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (2.4ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 107ms (Views: 98.6ms | ActiveRecord: 2.4ms | Allocations: 1397)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 11:14:03 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (2.0ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 114ms (Views: 96.9ms | ActiveRecord: 2.0ms | Allocations: 1470)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 11:19:28 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (19.9ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 304ms (Views: 268.5ms | ActiveRecord: 19.9ms | Allocations: 1397)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 11:19:43 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (6.9ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 139ms (Views: 106.5ms | ActiveRecord: 6.9ms | Allocations: 1397)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 11:29:48 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (6.7ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 169ms (Views: 151.3ms | ActiveRecord: 6.7ms | Allocations: 1470)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 11:34:32 -0400
+Processing by ArtistsController#index as HTML
+  [1m[36mArtist Load (9.6ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 45ms (Views: 33.5ms | ActiveRecord: 9.6ms | Allocations: 1395)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 11:43:12 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (3.2ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 122ms (Views: 97.0ms | ActiveRecord: 3.2ms | Allocations: 1470)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 11:52:35 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (4.4ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 111ms (Views: 98.4ms | ActiveRecord: 4.4ms | Allocations: 1470)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 12:04:14 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (2.6ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 165ms (Views: 140.5ms | ActiveRecord: 2.6ms | Allocations: 1473)
+
+
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2020-09-24 12:07:06 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/artists" for ::1 at 2020-09-24 12:08:11 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (0.8ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 40ms (Views: 38.3ms | ActiveRecord: 0.8ms | Allocations: 1396)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 12:09:21 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (0.6ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 27ms (Views: 18.8ms | ActiveRecord: 0.6ms | Allocations: 1397)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 12:12:54 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (0.8ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 31ms (Views: 26.0ms | ActiveRecord: 0.8ms | Allocations: 1397)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 12:23:24 -0400
+  [1m[35m (19.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArtistsController#index as HTML
+  [1m[36mArtist Load (3.6ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 348ms (Views: 102.9ms | ActiveRecord: 98.5ms | Allocations: 7581)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 12:23:57 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (0.8ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.8ms | Allocations: 1416)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 12:28:58 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (1.0ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 4.1ms | ActiveRecord: 1.0ms | Allocations: 1415)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 12:30:13 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (4.0ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 423ms (Views: 411.8ms | ActiveRecord: 4.0ms | Allocations: 1397)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 12:35:30 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (25.8ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 130ms (Views: 83.4ms | ActiveRecord: 25.8ms | Allocations: 1482)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 12:59:01 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (15.9ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 330ms (Views: 233.9ms | ActiveRecord: 15.9ms | Allocations: 1470)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 12:59:38 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (0.7ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 31ms (Views: 27.9ms | ActiveRecord: 0.7ms | Allocations: 1415)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 13:02:00 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (1.0ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 168ms (Views: 110.4ms | ActiveRecord: 1.0ms | Allocations: 1397)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 13:27:29 -0400
+  [1m[35m (17.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (1.9ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 163ms (Views: 33.6ms | ActiveRecord: 95.4ms | Allocations: 7584)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 13:27:59 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (2.1ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 13ms (Views: 10.4ms | ActiveRecord: 2.1ms | Allocations: 1415)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 14:21:32 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (15.2ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 76ms (Views: 49.0ms | ActiveRecord: 15.2ms | Allocations: 1482)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 14:22:04 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (2.5ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 16ms (Views: 11.5ms | ActiveRecord: 2.5ms | Allocations: 1415)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 14:23:26 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (2.9ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 28ms (Views: 21.5ms | ActiveRecord: 2.9ms | Allocations: 1415)
+
+
+Started POST "/artists" for ::1 at 2020-09-24 14:25:26 -0400
+Processing by ArtistsController#create as HTML
+  Parameters: {"name"=>"Test", "biography"=>"Test", "age"=>"24", "location"=>"Test", "artist"=>{"name"=>"Test", "biography"=>"Test", "age"=>"24", "location"=>"Test"}}
+Completed 404 Not Found in 208ms (ActiveRecord: 0.0ms | Allocations: 1446)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Artist without an ID):
+  
+app/controllers/artists_controller.rb:35:in `set_artist'
+Started GET "/artists" for ::1 at 2020-09-24 14:27:06 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (1.7ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 26ms (Views: 24.1ms | ActiveRecord: 1.7ms | Allocations: 1431)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 14:27:18 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (2.7ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 5.2ms | ActiveRecord: 2.7ms | Allocations: 1397)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 14:27:46 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (0.8ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.8ms | Allocations: 1397)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 14:33:43 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (13.6ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 133ms (Views: 82.1ms | ActiveRecord: 13.6ms | Allocations: 1470)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 14:38:09 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (1.0ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 67ms (Views: 64.1ms | ActiveRecord: 1.0ms | Allocations: 1397)
+
+
+Started POST "/artists" for ::1 at 2020-09-24 14:44:01 -0400
+Processing by ArtistsController#create as HTML
+  Parameters: {"name"=>"Test", "biography"=>"Test", "age"=>"24", "location"=>"Test", "artist"=>{"name"=>"Test", "biography"=>"Test", "age"=>"24", "location"=>"Test"}}
+Completed 404 Not Found in 18ms (ActiveRecord: 0.0ms | Allocations: 148)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Artist without an ID):
+  
+app/controllers/artists_controller.rb:35:in `set_artist'
+Started GET "/artists" for ::1 at 2020-09-24 15:01:20 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (14.1ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 223ms (Views: 199.6ms | ActiveRecord: 14.1ms | Allocations: 1472)
+
+
+Started POST "/artists" for ::1 at 2020-09-24 15:01:34 -0400
+Processing by ArtistsController#create as HTML
+  Parameters: {"name"=>"Test", "biography"=>"Test", "age"=>"24", "location"=>"Test", "artist"=>{"name"=>"Test", "biography"=>"Test", "age"=>"24", "location"=>"Test"}}
+Completed 404 Not Found in 10ms (ActiveRecord: 0.0ms | Allocations: 138)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Artist without an ID):
+  
+app/controllers/artists_controller.rb:35:in `set_artist'
+Started POST "/artists" for ::1 at 2020-09-24 15:01:45 -0400
+Processing by ArtistsController#create as HTML
+  Parameters: {"name"=>"Test", "biography"=>"Test", "age"=>"24", "location"=>"Test", "artist"=>{"name"=>"Test", "biography"=>"Test", "age"=>"24", "location"=>"Test"}}
+Completed 404 Not Found in 5ms (ActiveRecord: 0.0ms | Allocations: 138)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Artist without an ID):
+  
+app/controllers/artists_controller.rb:35:in `set_artist'
+Started GET "/artists" for ::1 at 2020-09-24 15:14:37 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (6.9ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 187ms (Views: 176.4ms | ActiveRecord: 6.9ms | Allocations: 1469)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 15:16:14 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (0.9ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 24ms (Views: 20.3ms | ActiveRecord: 0.9ms | Allocations: 1397)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 15:16:32 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (1.7ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 40ms (Views: 38.2ms | ActiveRecord: 1.7ms | Allocations: 1397)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 15:20:20 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (4.2ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 49ms (Views: 44.3ms | ActiveRecord: 4.2ms | Allocations: 1397)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 15:21:53 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (6.3ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 327ms (Views: 104.9ms | ActiveRecord: 6.3ms | Allocations: 1397)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 15:23:11 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (0.8ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 41ms (Views: 33.7ms | ActiveRecord: 0.8ms | Allocations: 1397)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 15:32:39 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (7.9ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 294ms (Views: 235.6ms | ActiveRecord: 7.9ms | Allocations: 1470)
+
+
+Started POST "/artists" for ::1 at 2020-09-24 15:32:50 -0400
+Processing by ArtistsController#create as HTML
+  Parameters: {"name"=>"Test", "biography"=>"Test", "age"=>"24", "location"=>"Test", "artist"=>{"name"=>"Test", "biography"=>"Test", "age"=>"24", "location"=>"Test"}}
+Completed 404 Not Found in 17ms (ActiveRecord: 0.0ms | Allocations: 138)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Artist without an ID):
+  
+app/controllers/artists_controller.rb:35:in `set_artist'
+Started GET "/artists" for ::1 at 2020-09-24 15:34:03 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (1.5ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 18ms (Views: 15.4ms | ActiveRecord: 1.5ms | Allocations: 1399)
+
+
+Started POST "/artists" for ::1 at 2020-09-24 15:34:20 -0400
+Processing by ArtistsController#create as HTML
+  Parameters: {"name"=>"Test", "biography"=>"Test", "age"=>"24", "location"=>"Test", "artist"=>{"name"=>"Test", "biography"=>"Test", "age"=>"24", "location"=>"Test"}}
+Completed 404 Not Found in 0ms (ActiveRecord: 0.0ms | Allocations: 138)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Artist without an ID):
+  
+app/controllers/artists_controller.rb:35:in `set_artist'
+Started GET "/artists" for ::1 at 2020-09-24 15:34:40 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (0.5ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.5ms | Allocations: 1396)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 15:37:03 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (7.9ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 383ms (Views: 349.6ms | ActiveRecord: 7.9ms | Allocations: 1397)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 15:51:10 -0400
+  [1m[35m (3.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (0.8ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 123ms (Views: 28.8ms | ActiveRecord: 62.5ms | Allocations: 7583)
+
+
+Started POST "/artists" for ::1 at 2020-09-24 15:51:21 -0400
+Processing by ArtistsController#create as HTML
+  Parameters: {"name"=>"Test", "biography"=>"Test", "age"=>"24", "location"=>"Test", "artist"=>{"name"=>"Test", "biography"=>"Test", "age"=>"24", "location"=>"Test"}}
+Completed 404 Not Found in 3ms (ActiveRecord: 0.0ms | Allocations: 389)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Artist without an ID):
+  
+app/controllers/artists_controller.rb:43:in `set_artist'
+Started GET "/artists" for ::1 at 2020-09-24 15:57:08 -0400
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (5.2ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 93ms (Views: 27.4ms | ActiveRecord: 43.1ms | Allocations: 7583)
+
+
+Started POST "/artists" for ::1 at 2020-09-24 15:57:22 -0400
+Processing by ArtistsController#create as HTML
+  Parameters: {"name"=>"Test", "biography"=>"Test", "age"=>"24", "location"=>"Test", "artist"=>{"name"=>"Test", "biography"=>"Test", "age"=>"24", "location"=>"Test"}}
+Completed 404 Not Found in 20ms (ActiveRecord: 0.0ms | Allocations: 1452)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Artist without an ID):
+  
+app/controllers/artists_controller.rb:43:in `set_artist'
+Started POST "/artists" for ::1 at 2020-09-24 16:07:08 -0400
+Processing by ArtistsController#create as HTML
+  Parameters: {"name"=>"Test", "biography"=>"Test", "age"=>"24", "location"=>"Test", "artist"=>{"name"=>"Test", "biography"=>"Test", "age"=>"24", "location"=>"Test"}}
+Completed 404 Not Found in 2ms (ActiveRecord: 0.0ms | Allocations: 171)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Artist without an ID):
+  
+app/controllers/artists_controller.rb:43:in `set_artist'
+Started GET "/artists" for ::1 at 2020-09-24 16:10:56 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (5.5ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 126ms (Views: 116.2ms | ActiveRecord: 5.5ms | Allocations: 1501)
+
+
+Started POST "/artists" for ::1 at 2020-09-24 16:11:07 -0400
+Processing by ArtistsController#create as HTML
+  Parameters: {"name"=>"Test", "biography"=>"Test", "age"=>"24", "location"=>"Test", "artist"=>{"name"=>"Test", "biography"=>"Test", "age"=>"24", "location"=>"Test"}}
+Completed 404 Not Found in 1ms (ActiveRecord: 0.0ms | Allocations: 144)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Artist without an ID):
+  
+app/controllers/artists_controller.rb:43:in `set_artist'
+Started POST "/artists" for ::1 at 2020-09-24 16:14:50 -0400
+Processing by ArtistsController#create as */*
+  Parameters: {"name"=>"Test", "biography"=>"Test", "age"=>"24", "location"=>"Test", "artist"=>{"name"=>"Test", "biography"=>"Test", "age"=>"24", "location"=>"Test"}}
+Completed 404 Not Found in 9ms (ActiveRecord: 0.0ms | Allocations: 138)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Artist without an ID):
+  
+app/controllers/artists_controller.rb:43:in `set_artist'
+Started GET "/artists" for ::1 at 2020-09-24 16:22:23 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (2.2ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 58ms (Views: 35.7ms | ActiveRecord: 2.2ms | Allocations: 6691)
+
+
+Started POST "/artists" for ::1 at 2020-09-24 16:22:34 -0400
+Processing by ArtistsController#create as HTML
+  Parameters: {"name"=>"Test", "biography"=>"Test", "age"=>"24", "location"=>"Test", "artist"=>{"name"=>"Test", "biography"=>"Test", "age"=>"24", "location"=>"Test"}}
+Completed 404 Not Found in 8ms (ActiveRecord: 0.0ms | Allocations: 138)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Artist without an ID):
+  
+app/controllers/artists_controller.rb:43:in `set_artist'
+Started GET "/artists" for ::1 at 2020-09-24 16:37:30 -0400
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArtistsController#index as HTML
+  [1m[36mArtist Load (2.6ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 227ms (Views: 46.9ms | ActiveRecord: 112.4ms | Allocations: 7581)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 16:37:59 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (0.5ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.5ms | Allocations: 1416)
+
+
+Started POST "/artists" for ::1 at 2020-09-24 16:44:10 -0400
+Processing by ArtistsController#create as HTML
+  Parameters: {"name"=>"Test", "biography"=>"Test", "age"=>"24", "location"=>"Test", "artist"=>{"name"=>"Test", "biography"=>"Test", "age"=>"24", "location"=>"Test"}}
+Completed 404 Not Found in 54ms (ActiveRecord: 0.0ms | Allocations: 1451)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Artist without an ID):
+  
+app/controllers/artists_controller.rb:44:in `set_artist'
+  [1m[35m (2.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (5.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (190.5ms)[0m  [1m[35mDROP DATABASE IF EXISTS "spotlight_app_api_development"[0m
+  [1m[35m (151.8ms)[0m  [1m[35mDROP DATABASE IF EXISTS "spotlight_app_api_test"[0m
+  [1m[35m (489.3ms)[0m  [1m[35mCREATE DATABASE "spotlight_app_api_development" ENCODING = 'unicode'[0m
+  [1m[35m (203.7ms)[0m  [1m[35mCREATE DATABASE "spotlight_app_api_test" ENCODING = 'unicode'[0m
+  [1m[35m (65.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (12.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (4.5ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3651213574502353755)[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateArtists (20200924015244)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (45.4ms)[0m  [1m[35mCREATE TABLE "artists" ("id" bigserial primary key, "name" character varying, "biography" character varying, "age" integer, "location" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (9.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200924015244"]]
+  [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateArtworks (20200924015337)
+  [1m[35m (10.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (18.0ms)[0m  [1m[35mCREATE TABLE "artworks" ("id" bigserial primary key, "name" character varying, "description" character varying, "price" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (1.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200924015337"]]
+  [1m[35m (2.8ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddColumnToArtwork (20200924032713)
+  [1m[35m (1.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (41.1ms)[0m  [1m[35mALTER TABLE "artworks" ADD "artist_id" integer[0m
+  [1m[36mprimary::SchemaMigration Create (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200924032713"]]
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (7.7ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (8.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-09-24 20:54:49.929825"], ["updated_at", "2020-09-24 20:54:49.929825"]]
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(3651213574502353755)[0m
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArtist Create (5.2ms)[0m  [1m[32mINSERT INTO "artists" ("name", "biography", "age", "location", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Shazelle"], ["biography", " Born and raised in New Orleans, Louisiana, Shazelle brings her Creole roots into all her pieces of work. Her first series, Feu, depicts the fierceness Creole women possess. She hopes to create more series dedicated to being Creole."], ["age", 19], ["location", "New Orleans"], ["created_at", "2020-09-24 20:55:07.585600"], ["updated_at", "2020-09-24 20:55:07.585600"]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArtist Create (0.6ms)[0m  [1m[32mINSERT INTO "artists" ("name", "biography", "age", "location", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Hana"], ["biography", "Hailing from Busan, Japan, Hana draws her first series inspiration from her name, the direct translation of flower. Hana sends her time engaging in pieces using pastels, bringing out the softness and delicacy of flowers."], ["age", 17], ["location", "Busan"], ["created_at", "2020-09-24 20:55:07.601164"], ["updated_at", "2020-09-24 20:55:07.601164"]]
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArtist Create (0.5ms)[0m  [1m[32mINSERT INTO "artists" ("name", "biography", "age", "location", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Ryon F."], ["biography", "From the small country of Guyana, Ryon F. creates his masterpieces directly from his mother's kitchen. His series, Food, brings recognition to his cultures food. From Poulorri to Pepperpot, Ryon brings a piece from home with every painting."], ["age", 27], ["location", "Georgetown"], ["created_at", "2020-09-24 20:55:07.622351"], ["updated_at", "2020-09-24 20:55:07.622351"]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArtist Create (0.5ms)[0m  [1m[32mINSERT INTO "artists" ("name", "biography", "age", "location", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Emerson"], ["biography", "Proud to be from Dominica, Emerson creates his pieces with one thing in mind, Dominican wine. Channeling his inner wine connoseur, every piece has been created with a wine glass in his hand."], ["age", 27], ["location", "Dominica"], ["created_at", "2020-09-24 20:55:07.632648"], ["updated_at", "2020-09-24 20:55:07.632648"]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArtist Load (0.5ms)[0m  [1m[34mSELECT "artists".* FROM "artists" WHERE "artists"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mArtwork Create (1.4ms)[0m  [1m[32mINSERT INTO "artworks" ("name", "description", "price", "created_at", "updated_at", "artist_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Feu"], ["description", "The New Orleans mistress sets ablaze her lover's home for not choosing her"], ["price", 450], ["created_at", "2020-09-24 20:55:07.710766"], ["updated_at", "2020-09-24 20:55:07.710766"], ["artist_id", 1]]
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArtist Load (0.5ms)[0m  [1m[34mSELECT "artists".* FROM "artists" WHERE "artists"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mArtwork Create (0.7ms)[0m  [1m[32mINSERT INTO "artworks" ("name", "description", "price", "created_at", "updated_at", "artist_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Ran"], ["description", "Orchid in Japanese"], ["price", 365], ["created_at", "2020-09-24 20:55:07.727698"], ["updated_at", "2020-09-24 20:55:07.727698"], ["artist_id", 2]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArtist Load (0.5ms)[0m  [1m[34mSELECT "artists".* FROM "artists" WHERE "artists"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mArtwork Create (1.8ms)[0m  [1m[32mINSERT INTO "artworks" ("name", "description", "price", "created_at", "updated_at", "artist_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Black Pudding"], ["description", "Black Pudding Caribbean Dish"], ["price", 550], ["created_at", "2020-09-24 20:55:07.744690"], ["updated_at", "2020-09-24 20:55:07.744690"], ["artist_id", 3]]
+  [1m[35m (1.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mArtist Load (0.4ms)[0m  [1m[34mSELECT "artists".* FROM "artists" WHERE "artists"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mArtwork Create (2.0ms)[0m  [1m[32mINSERT INTO "artworks" ("name", "description", "price", "created_at", "updated_at", "artist_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Kangaroo"], ["description", "Dominica Wine - Cabernet Sauvignon"], ["price", 525], ["created_at", "2020-09-24 20:55:07.759390"], ["updated_at", "2020-09-24 20:55:07.759390"], ["artist_id", 4]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/artists" for ::1 at 2020-09-24 16:56:12 -0400
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ArtistsController#index as HTML
+  [1m[36mArtist Load (1.1ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 233ms (Views: 133.9ms | ActiveRecord: 21.3ms | Allocations: 7582)
+
+
+Started GET "/artists" for ::1 at 2020-09-24 16:57:14 -0400
+Processing by ArtistsController#index as */*
+  [1m[36mArtist Load (2.9ms)[0m  [1m[34mSELECT "artists".* FROM "artists"[0m
+  ↳ app/controllers/artists_controller.rb:8:in `index'
+Completed 200 OK in 12ms (Views: 8.6ms | ActiveRecord: 2.9ms | Allocations: 1416)
+
+
+Started POST "/artists" for ::1 at 2020-09-24 16:57:51 -0400
+Processing by ArtistsController#create as HTML
+  Parameters: {"name"=>"Test", "biography"=>"Test", "age"=>"24", "location"=>"Test", "artist"=>{"name"=>"Test", "biography"=>"Test", "age"=>"24", "location"=>"Test"}}
+Completed 404 Not Found in 37ms (ActiveRecord: 0.0ms | Allocations: 1452)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Artist without an ID):
+  
+app/controllers/artists_controller.rb:43:in `set_artist'

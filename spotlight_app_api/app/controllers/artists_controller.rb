@@ -1,5 +1,5 @@
 class ArtistsController < ApplicationController
-  before_action :set_artist, only: [:show]
+  before_action :set_artist, only: [:show, :create]
 
   # GET /artists
   def index
@@ -19,6 +19,14 @@ class ArtistsController < ApplicationController
 
     if @artist.save
       render json: @artist, status: :created, location: @artist
+    else
+      render json: @artist.errors, status: :unprocessable_entity
+    end
+  end
+
+  def update
+    if @artist.update(artist_params)
+      render json: @artist
     else
       render json: @artist.errors, status: :unprocessable_entity
     end
