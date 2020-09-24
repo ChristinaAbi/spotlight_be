@@ -10,7 +10,7 @@ class ArtworksController < ApplicationController
 
   # GET /artworks/1
   def show
-    render json: @artwork
+    render json: @artwork.to_json(inlcude: :artist)
   end
 
   # POST /artworks
@@ -22,20 +22,6 @@ class ArtworksController < ApplicationController
     else
       render json: @artwork.errors, status: :unprocessable_entity
     end
-  end
-
-  # PATCH/PUT /artworks/1
-  def update
-    if @artwork.update(artwork_params)
-      render json: @artwork
-    else
-      render json: @artwork.errors, status: :unprocessable_entity
-    end
-  end
-
-  # DELETE /artworks/1
-  def destroy
-    @artwork.destroy
   end
 
   private
