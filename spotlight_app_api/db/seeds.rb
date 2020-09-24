@@ -31,3 +31,28 @@ Artist.create([
         location: "Dominica"
     }
 ])
+
+Artwork.create([
+    {
+        name: "Feu",
+        description: "The New Orleans mistress sets ablaze her lover's home for not choosing her",
+        price: 450
+    },
+    {
+        name: "Ran",
+        description: "Orchid in Japanese",
+        price: 365
+    },
+    {
+        name: "Black Pudding",
+        description: "Black Pudding Caribbean Dish",
+        price: 550
+    },
+    {
+        name: "Kangaroo",
+        description: "Dominica Wine - Cabernet Sauvignon",
+        price: 525
+    }
+])
+
+puts "Seeded artists and artworks"
